@@ -43,7 +43,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZp-sA-wds">
-                                                <rect key="frame" x="40" y="9.9999999999999982" width="40" height="20.333333333333329"/>
+                                                <rect key="frame" x="40.000000000000007" y="9.9999999999999982" width="39.999999999999993" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -79,7 +79,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7I-Ou-0so">
-                                                <rect key="frame" x="40" y="0.0" width="40" height="40"/>
+                                                <rect key="frame" x="40.000000000000028" y="0.0" width="40" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -103,12 +103,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-2E-MLm">
                                 <rect key="frame" x="16" y="354.33333333333337" width="343" height="373.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="C2B-Mr-jnr"/>
-                                </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus ligula quis sem sodales, nec porta ex facilisis. Mauris quis eros ultrices, tempus odio hendrerit, varius lacus. Suspendisse accumsan venenatis vulputate. Phasellus et finibus augue, ut accumsan augue. Quisque congue nunc at leo mattis, in blandit elit euismod. Integer id ipsum semper, ornare eros et, rutrum purus. Nunc fermentum sapien leo, dignissim tincidunt odio eleifend non. Integer sed massa eget neque fermentum tempus vitae sit amet eros. Nam efficitur odio nisi, vulputate varius eros pharetra ac. Nam interdum odio dolor, in vehicula diam ornare sed. Phasellus consectetur imperdiet tortor vel dignissim. Cras quis dui erat. Vivamus et hendrerit elit. Quisque volutpat dui eget tellus hendrerit, nec sodales urna vestibulum. Sed consectetur sapien elit, eget vulputate tellus vestibulum at. Morbi et rutrum mi.
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus ligula quis sem sodales, nec porta ex facilisis. Mauris quis eros ultrices, tempus odio hendrerit, varius lacus. Suspendisse accumsan venenatis vulputate. Phasellus et finibus augue, ut accumsan augue. Quisque congue nunc at leo mattis, in blandit elit euismod. Integer id ipsum semper, ornare eros et, rutrum purus. Nunc fermentum sapien leo, dignissim tincidunt odio eleifend non. Integer sed massa eget neque fermentum tempus vitae sit amet eros. Nam efficitur odio nisi, vulputate varius eros pharetra ac. Nam interdum odio dolor, in vehicula diam ornare sed. Phasellus consectetur imperdiet tortor vel dignissim. Cras quis dui erat. Vivamus et hendrerit elit. Quisque volutpat dui eget tellus hendrerit, nec sodales urna vestibulum. Sed consectetur sapien elit, eget vulputate tellus vestibulum at. Morbi et rutrum mi.
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam consectetur commodo arcu, at lobortis tortor pretium eget. Pellentesque vel purus convallis, ultricies orci molestie, laoreet odio. Phasellus facilisis volutpat finibus. Fusce et pulvinar nisi, in ornare enim. Duis volutpat neque a posuere tempor. Sed interdum mattis nibh, nec pharetra ante scelerisque vitae. Sed at ex eu lorem egestas eleifend in eget sapien. Curabitur dignissim mattis nunc, vel euismod ex cursus varius. Sed ac scelerisque urna, nec suscipit est. Mauris fringilla sodales varius. Aliquam in purus in dolor pulvinar lacinia quis non tellus.</mutableString>
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam consectetur commodo arcu, at lobortis tortor pretium eget. Pellentesque vel purus convallis, ultricies orci molestie, laoreet odio. Phasellus facilisis volutpat finibus. Fusce et pulvinar nisi, in ornare enim. Duis volutpat neque a posuere tempor. Sed interdum mattis nibh, nec pharetra ante scelerisque vitae. Sed at ex eu lorem egestas eleifend in eget sapien. Curabitur dignissim mattis nunc, vel euismod ex cursus varius. Sed ac scelerisque urna, nec suscipit est. Mauris fringilla sodales varius. Aliquam in purus in dolor pulvinar lacinia quis non tellus.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -126,7 +123,6 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Rel-l6-w40" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1y8-QP-qcm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ekh-2E-MLm" secondAttribute="trailing" constant="16" id="2MU-KB-2lo"/>
                             <constraint firstItem="ekh-2E-MLm" firstAttribute="top" secondItem="t7p-UP-yC2" secondAttribute="bottom" constant="2" id="52U-O5-rje"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="67P-8B-rt0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sgH-90-6x8" secondAttribute="trailing" constant="111" id="6Up-dB-c1F"/>
@@ -135,12 +131,12 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t7p-UP-yC2" secondAttribute="trailing" constant="285" id="FTb-Kw-dXC"/>
                             <constraint firstItem="DXl-aL-fJd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NHi-TZ-AYg"/>
                             <constraint firstItem="t7p-UP-yC2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="OgB-4I-GMq"/>
-                            <constraint firstItem="ekh-2E-MLm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QYn-j8-Idt"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XfJ-LL-DNh"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YpY-VY-5tg"/>
                             <constraint firstItem="DXl-aL-fJd" firstAttribute="top" secondItem="Rel-l6-w40" secondAttribute="bottom" constant="16" id="ZdM-Nd-H4P"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KWq-bw-7dk" secondAttribute="trailing" id="bJl-dx-gPq"/>
                             <constraint firstItem="ekh-2E-MLm" firstAttribute="leading" secondItem="t7p-UP-yC2" secondAttribute="leading" id="f1C-Cp-3Qh"/>
+                            <constraint firstItem="ekh-2E-MLm" firstAttribute="trailing" secondItem="DXl-aL-fJd" secondAttribute="trailing" id="jOf-ky-R3O"/>
                             <constraint firstItem="lwl-ho-ohc" firstAttribute="top" secondItem="DXl-aL-fJd" secondAttribute="bottom" constant="16" id="kHj-UQ-KfA"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="top" secondItem="ekh-2E-MLm" secondAttribute="bottom" constant="16" id="n2D-Ms-HDZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DXl-aL-fJd" secondAttribute="trailing" constant="16" id="nhw-0d-4GN"/>
