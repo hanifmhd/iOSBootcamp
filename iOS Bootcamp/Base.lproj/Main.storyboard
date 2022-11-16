@@ -16,24 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="Rel-l6-w40">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="Rel-l6-w40" userLabel="ProfileImage">
                                 <rect key="frame" x="137.66666666666666" y="67" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Rsq-V4-cPE"/>
                                     <constraint firstAttribute="width" constant="100" id="U13-x4-bKu"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muhammad Hanif" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXl-aL-fJd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muhammad Hanif" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXl-aL-fJd" userLabel="NameTextView">
                                 <rect key="frame" x="16" y="183" width="343" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lwl-ho-ohc">
-                                <rect key="frame" x="59.666666666666657" y="239.66666666666663" width="255.99999999999997" height="40"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lwl-ho-ohc" userLabel="DepositContainer">
+                                <rect key="frame" x="59.666666666666657" y="239.66666666666666" width="255.99999999999997" height="63.333333333333343"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0cV-1p-hop">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
+                                        <rect key="frame" x="0.0" y="11.666666666666686" width="80" height="40"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="puJ-cT-3F5">
                                                 <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
@@ -43,7 +43,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZp-sA-wds">
-                                                <rect key="frame" x="40.000000000000007" y="9.9999999999999982" width="39.999999999999993" height="20.333333333333329"/>
+                                                <rect key="frame" x="40.000000000000007" y="9.9999999999999698" width="39.999999999999993" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -51,7 +51,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YMK-bZ-pgO">
-                                        <rect key="frame" x="88" y="0.0" width="80" height="40"/>
+                                        <rect key="frame" x="88" y="11.666666666666686" width="80" height="40"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-aO-SEN">
                                                 <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
@@ -69,7 +69,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-rf-igK">
-                                        <rect key="frame" x="176" y="0.0" width="80" height="40"/>
+                                        <rect key="frame" x="176" y="11.666666666666686" width="80" height="40"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1te-z9-drw">
                                                 <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
@@ -88,29 +88,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth: 17 December 1996" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgH-90-6x8">
-                                <rect key="frame" x="16" y="295.66666666666669" width="248" height="20.333333333333314"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth: 17 December 1996" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgH-90-6x8" userLabel="DobTextView">
+                                <rect key="frame" x="16" y="319" width="248" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short bio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7p-UP-yC2">
-                                <rect key="frame" x="16" y="332" width="74" height="20.333333333333314"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-2E-MLm">
-                                <rect key="frame" x="16" y="354.33333333333337" width="343" height="373.33333333333337"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus ligula quis sem sodales, nec porta ex facilisis. Mauris quis eros ultrices, tempus odio hendrerit, varius lacus. Suspendisse accumsan venenatis vulputate. Phasellus et finibus augue, ut accumsan augue. Quisque congue nunc at leo mattis, in blandit elit euismod. Integer id ipsum semper, ornare eros et, rutrum purus. Nunc fermentum sapien leo, dignissim tincidunt odio eleifend non. Integer sed massa eget neque fermentum tempus vitae sit amet eros. Nam efficitur odio nisi, vulputate varius eros pharetra ac. Nam interdum odio dolor, in vehicula diam ornare sed. Phasellus consectetur imperdiet tortor vel dignissim. Cras quis dui erat. Vivamus et hendrerit elit. Quisque volutpat dui eget tellus hendrerit, nec sodales urna vestibulum. Sed consectetur sapien elit, eget vulputate tellus vestibulum at. Morbi et rutrum mi.
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam consectetur commodo arcu, at lobortis tortor pretium eget. Pellentesque vel purus convallis, ultricies orci molestie, laoreet odio. Phasellus facilisis volutpat finibus. Fusce et pulvinar nisi, in ornare enim. Duis volutpat neque a posuere tempor. Sed interdum mattis nibh, nec pharetra ante scelerisque vitae. Sed at ex eu lorem egestas eleifend in eget sapien. Curabitur dignissim mattis nunc, vel euismod ex cursus varius. Sed ac scelerisque urna, nec suscipit est. Mauris fringilla sodales varius. Aliquam in purus in dolor pulvinar lacinia quis non tellus.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWq-bw-7dk" userLabel="Edit Profile">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWq-bw-7dk" userLabel="EditProfileButton">
                                 <rect key="frame" x="27.666666666666657" y="743.66666666666663" width="320" height="34.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="y4U-dR-yPl"/>
@@ -118,31 +102,52 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Edit Profile"/>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gha-Ic-H3x" userLabel="BioContainer">
+                                <rect key="frame" x="16" y="371.33333333333337" width="343" height="340.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short bio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7p-UP-yC2" userLabel="BioLabel">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-2E-MLm" userLabel="BioTextView">
+                                        <rect key="frame" x="0.0" y="20.333333333333371" width="343" height="320"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="320" id="vTk-QT-Xu2"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus ligula quis sem sodales, nec porta ex facilisis. Mauris quis eros ultrices, tempus odio hendrerit, varius lacus. Suspendisse accumsan venenatis vulputate. Phasellus et finibus augue, ut accumsan augue. Quisque congue nunc at leo mattis, in blandit elit euismod. Integer id ipsum semper, ornare eros et, rutrum purus. Nunc fermentum sapien leo, dignissim tincidunt odio eleifend non. Integer sed massa eget neque fermentum tempus vitae sit amet eros. Nam efficitur odio nisi, vulputate varius eros pharetra ac. Nam interdum odio dolor, in vehicula diam ornare sed. Phasellus consectetur imperdiet tortor vel dignissim. Cras quis dui erat. Vivamus et hendrerit elit. Quisque volutpat dui eget tellus hendrerit, nec sodales urna vestibulum. Sed consectetur sapien elit, eget vulputate tellus vestibulum at. Morbi et rutrum mi.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam consectetur commodo arcu, at lobortis tortor pretium eget. Pellentesque vel purus convallis, ultricies orci molestie, laoreet odio. Phasellus facilisis volutpat finibus. Fusce et pulvinar nisi, in ornare enim. Duis volutpat neque a posuere tempor. Sed interdum mattis nibh, nec pharetra ante scelerisque vitae. Sed at ex eu lorem egestas eleifend in eget sapien. Curabitur dignissim mattis nunc, vel euismod ex cursus varius. Sed ac scelerisque urna, nec suscipit est. Mauris fringilla sodales varius. Aliquam in purus in dolor pulvinar lacinia quis non tellus.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Rel-l6-w40" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1y8-QP-qcm"/>
-                            <constraint firstItem="ekh-2E-MLm" firstAttribute="top" secondItem="t7p-UP-yC2" secondAttribute="bottom" constant="2" id="52U-O5-rje"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="67P-8B-rt0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sgH-90-6x8" secondAttribute="trailing" constant="111" id="6Up-dB-c1F"/>
                             <constraint firstItem="Rel-l6-w40" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="87H-IN-Ib4"/>
+                            <constraint firstItem="gha-Ic-H3x" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="BXc-2u-Tia"/>
                             <constraint firstItem="lwl-ho-ohc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DhR-bR-u2m"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t7p-UP-yC2" secondAttribute="trailing" constant="285" id="FTb-Kw-dXC"/>
                             <constraint firstItem="DXl-aL-fJd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NHi-TZ-AYg"/>
-                            <constraint firstItem="t7p-UP-yC2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="OgB-4I-GMq"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XfJ-LL-DNh"/>
                             <constraint firstItem="KWq-bw-7dk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YpY-VY-5tg"/>
                             <constraint firstItem="DXl-aL-fJd" firstAttribute="top" secondItem="Rel-l6-w40" secondAttribute="bottom" constant="16" id="ZdM-Nd-H4P"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KWq-bw-7dk" secondAttribute="trailing" id="bJl-dx-gPq"/>
-                            <constraint firstItem="ekh-2E-MLm" firstAttribute="leading" secondItem="t7p-UP-yC2" secondAttribute="leading" id="f1C-Cp-3Qh"/>
-                            <constraint firstItem="ekh-2E-MLm" firstAttribute="trailing" secondItem="DXl-aL-fJd" secondAttribute="trailing" id="jOf-ky-R3O"/>
                             <constraint firstItem="lwl-ho-ohc" firstAttribute="top" secondItem="DXl-aL-fJd" secondAttribute="bottom" constant="16" id="kHj-UQ-KfA"/>
-                            <constraint firstItem="KWq-bw-7dk" firstAttribute="top" secondItem="ekh-2E-MLm" secondAttribute="bottom" constant="16" id="n2D-Ms-HDZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DXl-aL-fJd" secondAttribute="trailing" constant="16" id="nhw-0d-4GN"/>
+                            <constraint firstItem="gha-Ic-H3x" firstAttribute="top" secondItem="sgH-90-6x8" secondAttribute="bottom" constant="32" id="pOl-vf-eet"/>
+                            <constraint firstItem="gha-Ic-H3x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sLf-MQ-phO"/>
                             <constraint firstItem="sgH-90-6x8" firstAttribute="top" secondItem="lwl-ho-ohc" secondAttribute="bottom" constant="16" id="uTL-AD-gtV"/>
-                            <constraint firstItem="t7p-UP-yC2" firstAttribute="top" secondItem="sgH-90-6x8" secondAttribute="bottom" constant="16" id="ve9-Wr-iST"/>
                             <constraint firstItem="sgH-90-6x8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xFY-gj-jLR"/>
+                            <constraint firstItem="KWq-bw-7dk" firstAttribute="top" secondItem="gha-Ic-H3x" secondAttribute="bottom" constant="32" id="zkl-Wj-Hut"/>
                         </constraints>
                     </view>
                 </viewController>
