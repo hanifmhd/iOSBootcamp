@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A6186E2924BE9B006E5F3B /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6186C2924BE9B006E5F3B /* EditProfileViewController.swift */; };
+		35A6186F2924BE9B006E5F3B /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A6186D2924BE9B006E5F3B /* EditProfileViewController.xib */; };
 		35D00C2529237A3B001C5C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D00C2429237A3B001C5C4E /* AppDelegate.swift */; };
 		35D00C2729237A3B001C5C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D00C2629237A3B001C5C4E /* SceneDelegate.swift */; };
 		35D00C2929237A3B001C5C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D00C2829237A3B001C5C4E /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35A6186C2924BE9B006E5F3B /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		35A6186D2924BE9B006E5F3B /* EditProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileViewController.xib; sourceTree = "<group>"; };
 		35D00C2129237A3B001C5C4E /* iOS Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D00C2429237A3B001C5C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35D00C2629237A3B001C5C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				35D00C2D29237A3D001C5C4E /* Assets.xcassets */,
 				35D00C2F29237A3D001C5C4E /* LaunchScreen.storyboard */,
 				35D00C3229237A3D001C5C4E /* Info.plist */,
+				35A6186C2924BE9B006E5F3B /* EditProfileViewController.swift */,
+				35A6186D2924BE9B006E5F3B /* EditProfileViewController.xib */,
 			);
 			path = "iOS Bootcamp";
 			sourceTree = "<group>";
@@ -103,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = 35D00C1C29237A3B001C5C4E /* Build configuration list for PBXProject "iOS Bootcamp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A6186F2924BE9B006E5F3B /* EditProfileViewController.xib in Resources */,
 				35D00C3129237A3D001C5C4E /* LaunchScreen.storyboard in Resources */,
 				35D00C2E29237A3D001C5C4E /* Assets.xcassets in Resources */,
 				35D00C2C29237A3B001C5C4E /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A6186E2924BE9B006E5F3B /* EditProfileViewController.swift in Sources */,
 				35D00C2929237A3B001C5C4E /* ViewController.swift in Sources */,
 				35D00C2529237A3B001C5C4E /* AppDelegate.swift in Sources */,
 				35D00C2729237A3B001C5C4E /* SceneDelegate.swift in Sources */,
